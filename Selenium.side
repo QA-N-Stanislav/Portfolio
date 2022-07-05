@@ -1,0 +1,134 @@
+{
+  "id": "4b5be08e-4171-426b-8f4d-3898747deead",
+  "version": "2.0",
+  "name": "Selenium",
+  "url": "https://demoqa.com",
+  "tests": [{
+    "id": "91052707-9d3e-4873-824b-730fc4327445",
+    "name": "ТЗ",
+    "commands": [{
+      "id": "16fcf98a-e9d8-42aa-a18e-8fb68d0bb617",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19c566bc-20cf-4935-87b9-8c73fe82013d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x692",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4db05b8-8c52-4d4d-8826-390a5d5ca7f3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.banner-image",
+      "targets": [
+        ["css=.banner-image", "css:finder"],
+        ["xpath=//img[@alt='Selenium Online Training']", "xpath:img"],
+        ["xpath=//div[@id='app']/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca3fc200-983b-4e9a-8d23-5fdb404a4cc9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.banner-image",
+      "targets": [
+        ["css=.banner-image", "css:finder"],
+        ["xpath=//img[@alt='Selenium Online Training']", "xpath:img"],
+        ["xpath=//div[@id='app']/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db00fc00-7b12-4221-9a4c-df0217c41d5e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(1) svg",
+      "targets": [
+        ["css=.card:nth-child(1) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b8768d2-7021-48de-ac0a-f6e08f040aba",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,26.399999618530273)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1fc6957c-ab56-49d2-9c0a-4c97342d3824",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show #item-1 > .text",
+      "targets": [
+        ["css=.show #item-1 > .text", "css:finder"],
+        ["xpath=//li[@id='item-1']/span", "xpath:idRelative"],
+        ["xpath=//li[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Check Box')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d753f249-9055-43c2-9e0a-b90f0bbbec1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rct-icon-uncheck",
+      "targets": [
+        ["css=.rct-icon-uncheck", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "13836b3e-5d9e-4b8c-98dd-8c206c3dccc9",
+      "comment": "",
+      "command": "click",
+      "target": "id=item-2",
+      "targets": [
+        ["id=item-2", "id"],
+        ["css=.show #item-2", "css:finder"],
+        ["xpath=//li[@id='item-2']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div/div/div/div/div/ul/li[3]", "xpath:idRelative"],
+        ["xpath=//li[3]", "xpath:position"],
+        ["xpath=//li[contains(.,'Radio Button')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4a371aa-e866-4a28-9482-2edccf2f35fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.custom-control:nth-child(3) > .custom-control-label",
+      "targets": [
+        ["css=.custom-control:nth-child(3) > .custom-control-label", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div[2]/div[2]/div[3]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Impressive')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "97402cbd-ee72-48d3-b5d2-15ce86c3952c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.custom-control:nth-child(2) > .custom-control-label",
+      "targets": [
+        ["css=.custom-control:nth-child(2) > .custom-control-label", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div[2]/div[2]/div[2]/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Yes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ea357e3d-657b-40f6-b213-a5a0dbb9bb7c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["91052707-9d3e-4873-824b-730fc4327445"]
+  }],
+  "urls": ["https://demoqa.com/"],
+  "plugins": []
+}
